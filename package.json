@@ -2,7 +2,7 @@
   "name": "movies",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://bookshow-ak2e.onrender.com",
+  "proxy": "https://bookingshow.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
