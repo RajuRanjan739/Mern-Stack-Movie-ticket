@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { API_DOMAIN } from './api';
 
 
 export const getAllMovies= async ()=>{
