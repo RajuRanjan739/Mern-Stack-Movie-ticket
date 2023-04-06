@@ -4,7 +4,7 @@ import { API_DOMAIN } from './api';
 
 export const getAllMovies= async ()=>{
    const res=await axios
-   .get(`${API_DOMAIN}/movie`)
+   .get(`${API_DOMAIN}/movie`,{withCredentials:true,headers:{"Content-Type": "application/json"}})
    .catch(err=>console.log(err));
 
    if(res.status !== 200){
